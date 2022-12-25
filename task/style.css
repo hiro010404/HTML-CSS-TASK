@@ -66,3 +66,20 @@ footer{
   height: 50px;
   background-color: #AAAAAA;
 }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  main-box{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sub-box{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
