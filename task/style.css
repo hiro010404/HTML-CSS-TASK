@@ -13,8 +13,10 @@ header{
 
 main-box{
   width: 960px;
-  margin: 50px auto;
+  padding: 50px 0;
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .sub-box{
@@ -73,13 +75,25 @@ footer{
 
 
 @media screen and (max-width: 768px) {
+  header{
+    height: 50px;
+  }
+
   main-box{
     width: 100%;
-    flex-direction: column;
+    padding: 50px 0;
+    display: block;
   }
 
   .sub-box{
     width: 90%;
+    margin: 0 auto;
     margin-bottom: 20px;
+  }
+
+  .sub-box:last-child{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0px;;
   }
 }
